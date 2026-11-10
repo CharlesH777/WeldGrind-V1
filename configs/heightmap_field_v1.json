@@ -1,0 +1,7 @@
+{
+  "variant": "field",
+  "model": {"input_channels": 15, "process_dimensions": 4, "widths": [16, 32, 64, 96], "condition_dimensions": 128},
+  "training": {"steps": 256, "batch_size": 2, "learning_rate": 0.0003, "seed": 20261110, "save_every": 128, "evaluate_every": 64, "sample_steps": 16},
+  "large_profile_model": {"input_channels": 15, "process_dimensions": 4, "widths": [32, 64, 128, 192, 256], "condition_dimensions": 256},
+  "target_semantics": "nonnegative total removal depth and unoriented pixel tangent axis; physical feed magnitude has no fabricated label"
+}

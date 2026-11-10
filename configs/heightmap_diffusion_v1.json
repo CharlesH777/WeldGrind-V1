@@ -1,0 +1,7 @@
+{
+  "variant": "diffusion",
+  "model": {"input_channels": 15, "image_width": 16, "sequence_width": 32, "condition_dimensions": 128, "timesteps": 1000, "beta_start": 0.0001, "beta_end": 0.02, "phase_weight": 0.1},
+  "training": {"steps": 256, "batch_size": 2, "learning_rate": 0.0003, "seed": 20261110, "save_every": 128, "evaluate_every": 64, "sample_steps": 16},
+  "large_profile_model": {"input_channels": 15, "image_width": 32, "sequence_width": 64, "condition_dimensions": 256, "timesteps": 1000, "beta_start": 0.0001, "beta_end": 0.02, "phase_weight": 0.1},
+  "target_semantics": "canonical1024 normalized world XYZ plus phases; proper matched noise objective, phase decodes self-predicted clean state"
+}

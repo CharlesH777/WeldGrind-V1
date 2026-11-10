@@ -1,0 +1,229 @@
+{
+  "schema": "weldgrind-public-model-source-v1",
+  "date": "2026-11-10",
+  "modules": [
+    {
+      "path": "src/weldgrind_v1/background_surface.py",
+      "sha256": "71ad586dc012c2e4def0e2a34afb710b99428df7220a5aabd5309bf26b3a145c",
+      "source_sha256": "71ad586dc012c2e4def0e2a34afb710b99428df7220a5aabd5309bf26b3a145c",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/bounded_scratch_program_model.py",
+      "sha256": "f0a9417d9426ba027ef5839b09ea3f2b513f1a1c5685bfb790e929c76ad6d633",
+      "source_sha256": "f0a9417d9426ba027ef5839b09ea3f2b513f1a1c5685bfb790e929c76ad6d633",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/canonical_direct_evaluation.py",
+      "sha256": "28ce0cc960d7e2996eb63bcb8da8e47d32afbf5d0a607baa95d02f79b0213c9d",
+      "source_sha256": "28ce0cc960d7e2996eb63bcb8da8e47d32afbf5d0a607baa95d02f79b0213c9d",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/canonical_direct_program_model.py",
+      "sha256": "e1085a8296f12518d1d486a88aaec1c625cdf8eaad7e1c837a86c20b7d0174b8",
+      "source_sha256": "e1085a8296f12518d1d486a88aaec1c625cdf8eaad7e1c837a86c20b7d0174b8",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/canonical_program_data.py",
+      "sha256": "84de39e46d183e93ac61447cff4c497c900e0bf1bbec051ef2c3482b3a41b220",
+      "source_sha256": "1b10daeb215f2693370dc210d664e4c63fb51762cbedc9b52f033382db6d29fa",
+      "runtime_subset": true
+    },
+    {
+      "path": "src/weldgrind_v1/collection.py",
+      "sha256": "2370809c9e017c5c543736d0f1e135d00cda1eed3042626eec60c10eec4b0d9f",
+      "source_sha256": "2370809c9e017c5c543736d0f1e135d00cda1eed3042626eec60c10eec4b0d9f",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/data.py",
+      "sha256": "d17694632404ee9bf1a6383d8f46a2b8d0c27fb42f4eb1f59d01fa3885d0e02e",
+      "source_sha256": "3c4fe02db45dfdd62107c6dde01ad1b71de4ddbbcb0d147c4693d618eb250b1c",
+      "runtime_subset": true
+    },
+    {
+      "path": "src/weldgrind_v1/evaluation.py",
+      "sha256": "80a9077c65cd3bec4fe33d556e800ce95bc23c4510135943123b2f7617e9be9c",
+      "source_sha256": "80a9077c65cd3bec4fe33d556e800ce95bc23c4510135943123b2f7617e9be9c",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/expanded_metric_program_model.py",
+      "sha256": "3ea149b1e59fabd48b7341b28e1f93e3de83599c65c01ced430266589d3035b3",
+      "source_sha256": "3ea149b1e59fabd48b7341b28e1f93e3de83599c65c01ced430266589d3035b3",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/expanded_selector_program_model.py",
+      "sha256": "914505a43ef1e6ed6b69002a1d17b12f95a0ea25e5d3bc88235becc5f118a697",
+      "source_sha256": "914505a43ef1e6ed6b69002a1d17b12f95a0ea25e5d3bc88235becc5f118a697",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/geometry.py",
+      "sha256": "a82bc467dc521e11b2c4dcf47c2c96fbbb63c881cd4b9e9117aa64db4544f723",
+      "source_sha256": "a82bc467dc521e11b2c4dcf47c2c96fbbb63c881cd4b9e9117aa64db4544f723",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/geometry_acceleration.py",
+      "sha256": "4963da99d0de3de194c3ffde135b112ec8301a840d91fe193bec151b1343de72",
+      "source_sha256": "4963da99d0de3de194c3ffde135b112ec8301a840d91fe193bec151b1343de72",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/heightmap_models.py",
+      "sha256": "fb373ee851fcfbd1f3566926d5697aa5719b0b09c10cd432a093e63a68060f46",
+      "source_sha256": "fb373ee851fcfbd1f3566926d5697aa5719b0b09c10cd432a093e63a68060f46",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/heightmap_planning.py",
+      "sha256": "998fc4dfad7714e42600b2fe606d75f64f6075f9b6e3c8940eb5081a01527189",
+      "source_sha256": "998fc4dfad7714e42600b2fe606d75f64f6075f9b6e3c8940eb5081a01527189",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/heightmap_representation.py",
+      "sha256": "cdf54d8ad0b5836b62dbb4e89d142fb11ce9c8813955e0ce4c622c3825cb43a9",
+      "source_sha256": "183b271368bee7c1c4cced8a0dd0aecccab493066a28f07c4661e53f3ff03a4a",
+      "runtime_subset": true
+    },
+    {
+      "path": "src/weldgrind_v1/metric_program_model.py",
+      "sha256": "a10ffc73ef7284a66a2c78bd7a53a682f3462c473d7675d80c71f2848b9be793",
+      "source_sha256": "a10ffc73ef7284a66a2c78bd7a53a682f3462c473d7675d80c71f2848b9be793",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/model.py",
+      "sha256": "1c37081f2790c0be4410cca20cd167245d67b56ade8ac82dbc46aae3eaff77b2",
+      "source_sha256": "1c37081f2790c0be4410cca20cd167245d67b56ade8ac82dbc46aae3eaff77b2",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/perception.py",
+      "sha256": "9ff2e2855cbf135ff5e93b053524cdda9e000a3c24f59000d6fddc13615ab3d6",
+      "source_sha256": "9ff2e2855cbf135ff5e93b053524cdda9e000a3c24f59000d6fddc13615ab3d6",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/physical_trajectory_filter.py",
+      "sha256": "5084bbcc28e7dbd244ac7718b63358ccb503ae12df7999870ee01c963330fca1",
+      "source_sha256": "5084bbcc28e7dbd244ac7718b63358ccb503ae12df7999870ee01c963330fca1",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/pointcloud_surface.py",
+      "sha256": "1ca32aa4dd54e5ffd228ebec600c2dbdd19b0bb2cf5316e9bf6a285ebb884b05",
+      "source_sha256": "1ca32aa4dd54e5ffd228ebec600c2dbdd19b0bb2cf5316e9bf6a285ebb884b05",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/predicted_rgbd_cloud.py",
+      "sha256": "c78aa36572a10a65bd951b07d9a347c6fe8199682d57d6e03421edac0f5d27d3",
+      "source_sha256": "c78aa36572a10a65bd951b07d9a347c6fe8199682d57d6e03421edac0f5d27d3",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/primitive_program_contract.py",
+      "sha256": "edfa598f33dfcfc27583527aecb32e22db99a748e69543b498c77ac29f6752da",
+      "source_sha256": "edfa598f33dfcfc27583527aecb32e22db99a748e69543b498c77ac29f6752da",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/process_augmented_canonical_data.py",
+      "sha256": "84594d939d35c9bc1a5e5f5c2595e91c3f1c9f3e3b142c818b7e8eb180b313b8",
+      "source_sha256": "84594d939d35c9bc1a5e5f5c2595e91c3f1c9f3e3b142c818b7e8eb180b313b8",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/process_conditioned_data.py",
+      "sha256": "a66ea24d7d511867eb9223e20c75f5ee8a3356f9c44cff02712216801c4e99ed",
+      "source_sha256": "a66ea24d7d511867eb9223e20c75f5ee8a3356f9c44cff02712216801c4e99ed",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/process_conditioned_evaluation.py",
+      "sha256": "a3e8b9188cb9a936ffbd5ebec99c6e2a43dcb32c009c367a662305c8f6081e4f",
+      "source_sha256": "a3e8b9188cb9a936ffbd5ebec99c6e2a43dcb32c009c367a662305c8f6081e4f",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/process_conditioned_flow_model.py",
+      "sha256": "2aa8d92ea40e821d22885559734f45f08a288f55d974213270d1df79f0617a18",
+      "source_sha256": "2aa8d92ea40e821d22885559734f45f08a288f55d974213270d1df79f0617a18",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/program_data.py",
+      "sha256": "4802b4b67c2fb0a8a5860a6c88df80a2a5b2c7d174ac8a54cdc4e9c80fc3dc71",
+      "source_sha256": "4802b4b67c2fb0a8a5860a6c88df80a2a5b2c7d174ac8a54cdc4e9c80fc3dc71",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/program_evaluation.py",
+      "sha256": "6932774d2aeaaa7aa8f49d0f9c961d3c0b97daf752db02ef513f1e4a70bc4822",
+      "source_sha256": "6932774d2aeaaa7aa8f49d0f9c961d3c0b97daf752db02ef513f1e4a70bc4822",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/program_evaluation_v3.py",
+      "sha256": "b1ac591ea68571d544da7fa5d52a3522a95bb1050f7c428a36243ffe42eb81e3",
+      "source_sha256": "b1ac591ea68571d544da7fa5d52a3522a95bb1050f7c428a36243ffe42eb81e3",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/program_model.py",
+      "sha256": "15e5a9de5abadd201eec98f41716b78d4326f0f74fa4827862437167cc3d0469",
+      "source_sha256": "15e5a9de5abadd201eec98f41716b78d4326f0f74fa4827862437167cc3d0469",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/program_training_v3.py",
+      "sha256": "a3f5b095df929a7b9eef2f96d564dd4e5f3dfd1ae2db77f135c786364d22bc4c",
+      "source_sha256": "a3f5b095df929a7b9eef2f96d564dd4e5f3dfd1ae2db77f135c786364d22bc4c",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/program_visualization.py",
+      "sha256": "6fafe2bd0f023bf4f15f8ad0bf38bff342a3a58fad48e4145b4db0bdea7a85ee",
+      "source_sha256": "6fafe2bd0f023bf4f15f8ad0bf38bff342a3a58fad48e4145b4db0bdea7a85ee",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/repaired_metric_program_model.py",
+      "sha256": "4d58e86b2d65a350877dd1b0deab12fd0912d5da7043c36f720e7ef2a305ac1c",
+      "source_sha256": "4d58e86b2d65a350877dd1b0deab12fd0912d5da7043c36f720e7ef2a305ac1c",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/roi_lattice_direct_program_model.py",
+      "sha256": "51cc7cd8237f870481ea9ae5a5b07ce8b982a392b16149f10aa8dc5596e59998",
+      "source_sha256": "51cc7cd8237f870481ea9ae5a5b07ce8b982a392b16149f10aa8dc5596e59998",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/roi_lattice_geometry.py",
+      "sha256": "c2b231b3fe8cbc0781676af69d0d03dbd0c5cff16de5398f8931761e1e3eb6b0",
+      "source_sha256": "c2b231b3fe8cbc0781676af69d0d03dbd0c5cff16de5398f8931761e1e3eb6b0",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/runtime.py",
+      "sha256": "2b5b53fd65ec510b63a95a77aba7f82d687575a882bb124d4eaa46e38fb64f38",
+      "source_sha256": "2b5b53fd65ec510b63a95a77aba7f82d687575a882bb124d4eaa46e38fb64f38",
+      "runtime_subset": false
+    },
+    {
+      "path": "src/weldgrind_v1/stable_selector.py",
+      "sha256": "b0b6891399fa8012d5772f31685cf8ab14277bed89fa426e881db2d4d9eb0f2a",
+      "source_sha256": "b0b6891399fa8012d5772f31685cf8ab14277bed89fa426e881db2d4d9eb0f2a",
+      "runtime_subset": false
+    }
+  ],
+  "contains_pretrained_action_weights": false
+}

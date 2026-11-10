@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weldgrind-v1"
+version = "0.1.0"
+description = "PV-Ground inspired surface seed conditioning and flow matching for weld grinding XYZ paths"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.24", "Pillow>=9", "PyYAML>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+filter = ["scipy>=1.10", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
